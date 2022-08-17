@@ -19,10 +19,17 @@
   </head>
   <body>
     <main class="container">
-      <h1>Juego de numero magico</h1>
-      <section>
-        <button class="btn btn-primary">Comenzar el juego</button>
-      </section>
+        <h1>Juego de numeros magicos</h1>
+        <hr>
+        <section>
+            <button class="btn btn-primary" onclick="comenzarJuego()">Comenzar el juego</button>
+            <form class="my-5" id="formulario">
+                <div class="d-flex">
+                    <input type="number" class="form-control" placeholder="Ingrese un numero" minlength="1" maxlength="6" id="inputAdivinar">
+                    <button class="btn btn-outline-primary" type="submit">Adivinar</button>
+                </div>
+            </form>
+        </section>
     </main>
     <!-- JavaScript Bundle with Popper -->
     <script
